@@ -31,6 +31,8 @@ border-color: gray;
 #iframe{
 	border: 0 none;
 	margin-top: 20px;
+	height: 1050px;
+	width: 100%;
 }
 .box{
 	display: block;
