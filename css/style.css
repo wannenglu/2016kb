@@ -1,0 +1,55 @@
+body,div,p,h1,h2,h3,h4,ul,li,dl,dt,dd,ol,form,table,tr,td,span,label,input,select,option,a,img,i,em,strong,b{ margin: 0; padding: 0;}
+li{ list-style: none;}
+img{ border: 0 none; vertical-align: top;}
+a{ text-decoration: none; color: #000;}
+a:hover{ color: #000;}
+body{
+	font-family: "宋体";
+	color: #000;
+	margin-top: 10px;
+}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content: "."; height: 0; clear: both; visibility: hidden; display: block;}
+
+body, input, table, select, textarea, h1, h2, h3, h4, h5, h6, button {
+font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+}
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+}
+.main{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+#iframe{
+	border: 0 none;
+	margin-top: 20px;
+}
+.box{
+	display: block;
+	width: 98%;
+	margin: 0 auto;
+}
+.blacktab{
+	border: 1px solid #000;
+	}
+.blacktab th,.blacktab td{
+	border: 1px solid #000;
+	color:#000;
+}
+.blacktab{
+	border-collapse: collapse;
+	width: 100%;
+	margin: 2px auto;
+	}
+.blacktab th,.blacktab td{
+	padding: 0.5em 0.6em;
+	vertical-align: middle;
+}
